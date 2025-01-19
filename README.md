@@ -35,11 +35,11 @@ Data was collected from the **Hepsiemlak** platform using web scraping methods.
 ---
 
 ## Data Preprocessing
-![image](https://github.com/user-attachments/assets/261a9aea-0cd9-4b2d-a0ce-0e6c15dfa9ce)
 ### Missing Value Imputation
 - **M2**: Missing values were filled with the mean.
 - **Floor**: Missing values were filled with the mode.
 - **Building_Age**: Missing values were predicted using an artificial neural network built with PyTorch.
+![image](https://github.com/user-attachments/assets/261a9aea-0cd9-4b2d-a0ce-0e6c15dfa9ce)
 
 ### Categorical Variable Encoding
 - **Label Encoding**: Applied label encoding to all categorical variables.
@@ -56,18 +56,32 @@ Data was collected from the **Hepsiemlak** platform using web scraping methods.
 - **Price**: Identified a significant number of outliers.
 - **M2**: Broad distribution due to luxury properties.
 - **Building_Age**: Detected extreme values caused by data entry errors.
+![image](https://github.com/user-attachments/assets/e81b1ee0-5550-497a-84c5-2336e3468a1a)
+![image](https://github.com/user-attachments/assets/45eb4a0c-c95a-488a-b8cd-e97b8a6229a4)
+![image](https://github.com/user-attachments/assets/7afbd337-47b8-4c23-bce9-dabc5f77e1a4)
 
 ### Violin Plots
 - **Price and M2**: Analyzed varying distributions across regions.
 - **Building_Age and Number_of_Rooms**: Explored the impact of new and old structures in different regions.
+![image](https://github.com/user-attachments/assets/a048cc61-d4a4-4784-9938-4e5dc002fee2)
+![image](https://github.com/user-attachments/assets/625be5f7-cc1e-457b-8d31-126cb5854f43)
+![image](https://github.com/user-attachments/assets/25dec874-3e84-4171-8086-dda814c53d74)
+![image](https://github.com/user-attachments/assets/8ecb5941-1245-4db5-9dc3-707767860af5)
 
 ### Distribution Graphs
 - **Price and M2**: Concentrated in mid-range properties.
 - **Building_Age**: Newer buildings were found to dominate the market.
+![image](https://github.com/user-attachments/assets/abcc60a7-b595-4901-924b-7dbf452be4fd)
+![image](https://github.com/user-attachments/assets/e49c2a07-1ca9-4c88-b3b9-c929b4f6789f)
+![image](https://github.com/user-attachments/assets/13b55ac3-aeb8-4601-80d7-1e47c60a3b94)
 
 ### Pie Charts
 - **Number of Rooms and Floor**: Indicated a preference for mid-sized properties.
 - **Regions**: Highlighted Kepez and Muratpaşa as the most popular areas.
+![image](https://github.com/user-attachments/assets/0378c0ea-e2f3-4f87-996e-c20d74d48e63)
+![image](https://github.com/user-attachments/assets/57fdee27-30d1-45a8-8595-496864b769fe)
+![image](https://github.com/user-attachments/assets/3c2bcfc7-7f16-4a84-9f3a-a56e991badfd)
+![image](https://github.com/user-attachments/assets/eb7ad11b-8e4d-4ac2-87df-ea6f4f2ab046)
 
 ---
 
